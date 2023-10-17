@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import './pokemonCard.css'
+import './pokemonCard.css';
 
 export default function PokemonCard({ pokemon }) {
   const imgUrl = pokemon.sprites.other["official-artwork"].front_default;
